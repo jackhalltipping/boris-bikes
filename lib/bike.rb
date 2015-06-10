@@ -1,5 +1,5 @@
 class Bike
 	def working?
-		trues
+		true
 	end
 end
