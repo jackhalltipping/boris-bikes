@@ -1,15 +1,16 @@
 require './lib/docking_station'
 
 describe DockingStation do
-# 	it { is_expected.to respond_to :release_bike }
+	it { is_expected.to respond_to :release_bike }
 
-# 	it 'releases working bikes' do
-# 		bike = subject.release_bike
-# 		expect(bike).to be_working
-# 	 end
+	it 'releases working bikes' do
+		subject.dock Bike.new
+		bike = subject.release_bike
+		expect(bike).to be_working
+	 end
 # 	 User Story 1
 
-# 	it { is_expected.to respond_to(:dock).with(1).argument }
+	it { is_expected.to respond_to(:dock).with(1).argument }
 # 	dock test (User 2)
 
 	describe 'release_bike' do
