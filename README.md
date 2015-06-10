@@ -7,7 +7,7 @@ The docking stations, van and garage all have a maximum capacity to be specified
 
 ## User Stories
 
-In order to start developing the system the following [Users Stories](user-stories.md) are evaluated, aiding the construction of the functions the customer requires. 
+In order to start developing the system the following [Users Stories](User-Stories.md) are evaluated, aiding the construction of the functions the customer requires. 
 
 ## TDD, OOD and Paired Programming
 The system will be designed using Test Driven and Object Orientated Design, working under paired programming throughout.
