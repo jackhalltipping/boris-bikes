@@ -9,5 +9,4 @@ describe Bike do
 	end
 
 	it {is_expected.to respond_to :broken?}
-
 end
