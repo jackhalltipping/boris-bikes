@@ -35,3 +35,13 @@ I'd like vans to take broken bikes from docking stations and deliver them to gar
 As a maintainer of the system,
 So that I can manage broken bikes and not disappoint users,
 I'd like vans to collect working bikes from garages and distribute them to docking stations.
+
+##Addition Correspondence
+
+As a system maintainer,
+So that I can plan the distribution of bikes,
+I want a docking station to have a default capacity of 20 bikes.
+
+As a system maintainer,
+So that busy areas can be served more effectively,
+I want to be able to specify a larger capacity when necessary.
